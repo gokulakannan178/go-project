@@ -1,0 +1,7 @@
+package constants
+
+const (
+	CONTENTVIEWLOGSTATUSACTIVE  = "Active"
+	CONTENTVIEWLOGSTATUSDISABLE = "Disabled"
+	CONTENTVIEWLOGSTATUSDELETED = "Deleted"
+)

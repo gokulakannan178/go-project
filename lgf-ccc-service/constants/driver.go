@@ -1,0 +1,7 @@
+package constants
+
+const (
+	DRIVERDETAILSSTATUSACTIVE   = "Active"
+	DRIVERDETAILSSTATUSDISABLED = "Disabled"
+	DRIVERDETAILSSTATUSDELETED  = "Deleted"
+)

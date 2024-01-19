@@ -1,0 +1,8 @@
+package constants
+
+//IDENTITYTYPE Constants
+const (
+	IDENTITYTYPESTATUSACTIVE   = "Active"
+	IDENTITYTYPESTATUSDISABLED = "Disabled"
+	IDENTITYTYPESTATUSDELETED  = "Deleted"
+)

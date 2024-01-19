@@ -1,0 +1,27 @@
+package models
+
+import "time"
+
+type Apptoken struct {
+	UniqueID          string     `json:"uniqueId" bson:"uniqueId,omitempty"`
+	UserID            string     `json:"userid" bson:"userid,omitempty"`
+	Usertype          string     `json:"usertype" bson:"usertype,omitempty"`
+	Status            string     `json:"status" bson:"status,omitempty"`
+	RegistrationToken string     `json:"registrationtoken" bson:"registrationtoken"`
+	Currenttime       *time.Time `json:"currenttime" bson:"currenttime,omitempty"`
+}
+type ApptokenFilter struct {
+	Status []string `json:"status" bson:"status,omitempty"`
+}
+type RefApptoken struct {
+	Apptoken `bson:",inline"`
+}
+
+type AppTokenNotification struct {
+	Notification string   `json:"notification" bson:"notification,omitempty"`
+	Types        []string `json:"types" bson:"types,omitempty"`
+}
+
+type RefAppTokenNotification struct {
+	RegistrationToken []string `json:"registrationtoken" bson:"registrationtoken,omitempty"`
+}

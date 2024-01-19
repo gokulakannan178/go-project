@@ -1,0 +1,7 @@
+package constants
+
+const (
+	ROUTEMASTERSTATUSACTIVE   = "Active"
+	ROUTEMASTERSTATUSDISABLED = "Disabled"
+	ROUTEMASTERSTATUSDELETED  = "Deleted"
+)

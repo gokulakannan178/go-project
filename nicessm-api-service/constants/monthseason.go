@@ -1,0 +1,7 @@
+package constants
+
+const (
+	MONTHSEASONSTATUSACTIVE  = "Active"
+	MONTHSEASONSTATUSDISABLE = "Disabled"
+	MONTHSEASONSTATUSDELETED = "Deleted"
+)

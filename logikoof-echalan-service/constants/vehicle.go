@@ -1,0 +1,31 @@
+package constants
+
+//Vehicle Constants
+const (
+	VEHICLESTATUSACTIVE   = "Active"
+	VEHICLESTATUSDISABLED = "Disabled"
+	VEHICLESTATUSDELETED  = "Deleted"
+	VEHICLESTATUSINIT     = "Init"
+)
+
+//Vehicle Challan Constants
+const (
+	VEHICLECHALLANSTATUSACTIVE   = "Active"
+	VEHICLECHALLANSTATUSDISABLED = "Disabled"
+	VEHICLECHALLANSTATUSDELETED  = "Deleted"
+	VEHICLECHALLANSTATUSINIT     = "Init"
+)
+
+//Offence type Constants
+const (
+	OFFENCETYPESTATUSACTIVE   = "Active"
+	OFFENCETYPESTATUSDISABLED = "Disabled"
+	OFFENCETYPESTATUSDELETED  = "Deleted"
+	OFFENCETYPESTATUSINIT     = "Init"
+)
+
+//Vehicle Challan Payment Status
+const (
+	VEHICLECHALLANPAYMENTSTATUSPENDING   = "Pending"
+	VEHICLECHALLANPAYMENTSTATUSCOMPLETED = "Completed"
+)

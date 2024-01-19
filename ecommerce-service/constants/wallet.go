@@ -1,0 +1,11 @@
+package constants
+
+const (
+	WALLETSTATUSACTIVE   = "Active"
+	WALLETSTATUSDISABLED = "Disabled"
+	WALLETSTATUSDELETED  = "Deleted"
+
+	WALLETLOGSTATUSACTIVE   = "Active"
+	WALLETLOGSTATUSDISABLED = "Disabled"
+	WALLETLOGSTATUSDELETED  = "Deleted"
+)

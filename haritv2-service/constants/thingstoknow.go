@@ -1,0 +1,8 @@
+package constants
+
+//THINGSTOKNOW Constants
+const (
+	THINGSTOKNOWSTATUSACTIVE   = "Active"
+	THINGSTOKNOWSTATUSDISABLED = "Disabled"
+	THINGSTOKNOWSTATUSDELETED  = "Deleted"
+)

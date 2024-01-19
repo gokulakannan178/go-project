@@ -1,0 +1,8 @@
+package constants
+
+// VENDORINFO
+const (
+	VENDORINFOSTATUSACTIVE   = "Active"
+	VENDORINFOSTATUSDISABLED = "Disabled"
+	VENDORINFOSTATUSDELETED  = "Deleted"
+)

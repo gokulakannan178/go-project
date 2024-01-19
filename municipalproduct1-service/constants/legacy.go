@@ -1,0 +1,15 @@
+package constants
+
+//Residential Type
+const (
+	LEGACYPROPERTYSTATUSACTIVE   = "Active"
+	LEGACYPROPERTYSTATUSDISABLED = "Disabled"
+	LEGACYPROPERTYSTATUSDELETED  = "Deleted"
+)
+
+//Residential Type
+const (
+	LEGACYPROPERTYFYSTATUSACTIVE   = "Active"
+	LEGACYPROPERTYFYSTATUSDISABLED = "Disabled"
+	LEGACYPROPERTYFYSTATUSDELETED  = "Deleted"
+)

@@ -1,0 +1,9 @@
+package constants
+
+const (
+	LANGAUAGESTATUSTRUE    = true
+	LANGAUAGESTATUSFALSE   = false
+	LANGAUAGESTATUSACTIVE  = "Active"
+	LANGAUAGESTATUSDISABLE = "Disabled"
+	LANGAUAGESTATUSDELETED = "Deleted"
+)

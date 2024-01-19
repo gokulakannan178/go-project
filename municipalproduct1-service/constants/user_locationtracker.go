@@ -1,0 +1,8 @@
+package constants
+
+//User Location Tracker
+const (
+	USERLOCATIONTRACKERSTATUSACTIVE   = "Active"
+	USERLOCATIONTRACKERSTATUSDISABLED = "Disabled"
+	USERLOCATIONTRACKERSTATUSDELETED  = "Deleted"
+)

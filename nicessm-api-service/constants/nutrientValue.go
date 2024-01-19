@@ -1,0 +1,9 @@
+package constants
+
+//NUTRIENTVALUE Constants
+const (
+	COLLECTIONNUTRIENTVALUE     = "nutrientValue"
+	NUTRIENTVALUESTATUSACTIVE   = "Active"
+	NUTRIENTVALUESTATUSDISABLED = "Disabled"
+	NUTRIENTVALUESTATUSDELETED  = "Deleted"
+)

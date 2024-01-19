@@ -1,0 +1,8 @@
+package constants
+
+//User Location Log
+const (
+	USERLOCATIONLOGSTATUSACTIVE   = "Active"
+	USERLOCATIONLOGSTATUSDISABLED = "Disabled"
+	USERLOCATIONLOGSTATUSDELETED  = "Deleted"
+)

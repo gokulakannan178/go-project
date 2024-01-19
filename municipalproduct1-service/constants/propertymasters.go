@@ -1,0 +1,272 @@
+package constants
+
+//Construction Type Constants
+const (
+	CONSTRUCTIONTYPESTATUSACTIVE   = "Active"
+	CONSTRUCTIONTYPESTATUSDISABLED = "Disabled"
+	CONSTRUCTIONTYPESTATUSDELETED  = "Deleted"
+)
+
+//Floor Type Constants
+const (
+	FLOORTYPESTATUSACTIVE   = "Active"
+	FLOORTYPESTATUSDISABLED = "Disabled"
+	FLOORTYPESTATUSDELETED  = "Deleted"
+)
+
+//Honoriffic Constants
+const (
+	HONORIFFICTATUSACTIVE   = "Active"
+	HONORIFFICTATUSDISABLED = "Disabled"
+	HONORIFFICTATUSDELETED  = "Deleted"
+)
+
+//Municipal Types Constants
+const (
+	MUNICIPALTYPESTATUSACTIVE   = "Active"
+	MUNICIPALTYPESTATUSDISABLED = "Disabled"
+	MUNICIPALTYPESTATUSDELETED  = "Deleted"
+)
+
+//Occupancy Types Constants
+const (
+	OCCUPANCYTYPESTATUSACTIVE   = "Active"
+	OCCUPANCYTYPESTATUSDISABLED = "Disabled"
+	OCCUPANCYTYPESTATUSDELETED  = "Deleted"
+)
+
+//Relation Constants
+const (
+	RELATIONSTATUSACTIVE   = "Active"
+	RELATIONSTATUSDISABLED = "Disabled"
+	RELATIONSTATUSDELETED  = "Deleted"
+)
+
+//Road Type Constants
+const (
+	ROADTYPESTATUSACTIVE   = "Active"
+	ROADTYPESTATUSDISABLED = "Disabled"
+	ROADTYPESTATUSDELETED  = "Deleted"
+)
+
+//Usage Type Constants
+const (
+	USAGETYPESTATUSACTIVE   = "Active"
+	USAGETYPESTATUSDISABLED = "Disabled"
+	USAGETYPESTATUSDELETED  = "Deleted"
+)
+
+//Property Type Constants
+const (
+	PROPERTYTYPESTATUSACTIVE   = "Active"
+	PROPERTYTYPESTATUSDISABLED = "Disabled"
+	PROPERTYTYPESTATUSDELETED  = "Deleted"
+)
+
+//AVR Range Constants
+const (
+	AVRRANGESTATUSACTIVE   = "Active"
+	AVRRANGESTATUSDISABLED = "Disabled"
+	AVRRANGESTATUSDELETED  = "Deleted"
+)
+
+//AVR Range Constants
+const (
+	PROPERTYOTHERSTATUSACTIVE   = "Active"
+	PROPERTYOTHERSTATUSDISABLED = "Disabled"
+	PROPERTYOTHERSTATUSDELETED  = "Deleted"
+)
+
+//Property Constants
+const (
+	PROPERTYSTATUSACTIVE       = "Active"
+	PROPERTYSTATUSDISABLED     = "Disabled"
+	PROPERTYSTATUSDELETED      = "Deleted"
+	PROPERTYSTATUSREJECTED     = "Rejected"
+	PROPERTYSTATUSPENDING      = "Init"
+	PROPERTYSTATUSMUTATED      = "Mutated"
+	PropertyParkPenaltyEnable  = true
+	PropertyParkPenaltyDisable = false
+)
+
+//Property Floor Constants
+const (
+	PROPERTYFLOORSTATUSACTIVE   = "Active"
+	PROPERTYFLOORSTATUSDISABLED = "Disabled"
+	PROPERTYFLOORSTATUSDELETED  = "Deleted"
+)
+
+//Property Owner Constants
+const (
+	PROPERTYOWNERSTATUSACTIVE   = "Active"
+	PROPERTYOWNERSTATUSDISABLED = "Disabled"
+	PROPERTYOWNERSTATUSDELETED  = "Deleted"
+)
+
+//Financial Year Constants
+const (
+	FINANCIALYEARSTATUSACTIVE   = "Active"
+	FINANCIALYEARSTATUSDISABLED = "Disabled"
+	FINANCIALYEARSTATUSDELETED  = "Deleted"
+)
+
+//Property Ownership Constants
+const (
+	PROPERTYOWNERSHIPSTATUSACTIVE   = "Active"
+	PROPERTYOWNERSHIPSTATUSDISABLED = "Disabled"
+	PROPERTYOWNERSHIPSTATUSDELETED  = "Deleted"
+)
+
+//Property vacant land rate Constants
+const (
+	PROPERTYVACANTLANDRATESTATUSACTIVE   = "Active"
+	PROPERTYVACANTLANDRATESTATUSDISABLED = "Disabled"
+	PROPERTYVACANTLANDRATESTATUSDELETED  = "Deleted"
+)
+
+//Floor ratable area
+const (
+	FLOORRATABLEAREASTATUSACTIVE   = "Active"
+	FLOORRATABLEAREASTATUSDISABLED = "Disabled"
+	FLOORRATABLEAREASTATUSDELETED  = "Deleted"
+)
+
+//AVR
+const (
+	AVRSTATUSACTIVE   = "Active"
+	AVRSTATUSDISABLED = "Disabled"
+	AVRSTATUSDELETED  = "Deleted"
+)
+
+//NOn residential usage factor
+const (
+	NONRESIDENTIALUSAGEFACTORSTATUSACTIVE   = "Active"
+	NONRESIDENTIALUSAGEFACTORSTATUSDISABLED = "Disabled"
+	NONRESIDENTIALUSAGEFACTORSTATUSDELETED  = "Deleted"
+)
+
+//Property tax
+const (
+	PROPERTYTAXSTATUSACTIVE   = "Active"
+	PROPERTYTAXSTATUSDISABLED = "Disabled"
+	PROPERTYTAXSTATUSDELETED  = "Deleted"
+)
+
+//Rebate
+const (
+	REBATESTATUSACTIVE   = "Active"
+	REBATESTATUSDISABLED = "Disabled"
+	REBATESTATUSDELETED  = "Deleted"
+)
+
+//Penalty
+const (
+	PENALTYSTATUSACTIVE   = "Active"
+	PENALTYSTATUSDISABLED = "Disabled"
+	PENALTYSTATUSDELETED  = "Deleted"
+)
+
+//Residential Type
+const (
+	RESIDENTIALTYPESTATUSACTIVE   = "Active"
+	RESIDENTIALTYPESTATUSDISABLED = "Disabled"
+	RESIDENTIALTYPESTATUSDELETED  = "Deleted"
+)
+
+//Property Payment
+const (
+	PROPERTYPAYMENTINITIATED           = "Initiated"
+	PROPERTYPAYMENTCOMPLETED           = "Completed"
+	PROPERTYPAYMENTNOTVERIFIED         = "NotVerified"
+	PROPERTYPAYMENTVERIFICATIONPENDING = "VerificationPending"
+	PROPERTYPAYMENREJECTED             = "Rejected"
+	PROPERTYPAYMENTBOUNCED             = "Bounced"
+	PROPERTYPAYMENTCOLLECTED           = "Collected"
+	PROPERTYPAYMENTPARTIALLYCOMPLETED  = "PartiallyCompleted"
+	PROPERTYPAYMENPARKED               = "Parked"
+)
+
+//Property Payment Type
+const (
+	PROPERTYPAYMENTTYPEPARTPAYMENT = "PartPayment"
+)
+
+//Other Charges
+const (
+	OTHERCHARGESSTATUSACTIVE   = "Active"
+	OTHERCHARGESSTATUSDISABLED = "Disabled"
+	OTHERCHARGESSTATUSDELETED  = "Deleted"
+)
+
+//Property constants
+const (
+	MUNICIPALITYWATERCONNECTIONYES           = "Yes"
+	MUNICIPALITYWATERCONNECTIONNO            = "No"
+	PARKPENALTYYES                           = "Yes"
+	PARKPENALTYNO                            = "No"
+	PARKBORINGCHARGENO                       = "No"
+	PARKBORINGCHARGEYES                      = "Yes"
+	PARKFORMFEEYES                           = "Yes"
+	PARKFORMFEENO                            = "NO"
+	MUNICIPALITYWATERCONNECTIONSUPPLYOWN     = "Supply + Own"
+	MUNICIPALITYWATERCONNECTIONNOTAPPLICABLE = "Not Applicable"
+	MUNICIPALITYWATERCONNECTIONALREADYPAID   = "Already Paid"
+)
+
+//Property mop
+const (
+	MOPCASH       = "Cash"
+	MOPCHEQUE     = "Cheque"
+	MOPNETBANKING = "NB"
+	MOPDD         = "DD"
+)
+
+// Property Penalty
+const (
+	PROPERTYPENALTYSTATUSACTIVE   = "Active"
+	PROPERTYPENALTYSTATUSDISABLED = "Disabled"
+	PROPERTYPENALTYSTATUSDELETED  = "Deleted"
+)
+
+//BankDeposit
+const (
+	BANKDEPOSITSTATUSPENDING                             = "Pending"
+	BANKDEPOSITSTATUSVERIFIED                            = "Verified"
+	BANKDEPOSITSTATUSNOTVERIFIED                         = "NotVerified"
+	BANKDEPOSITCOLLECTIONSUBMISSIONREQUESTSTATUSPENDING  = "Pending"
+	BANKDEPOSITCOLLECTIONSUBMISSIONREQUESTSTATUSACTIVE   = "Active"
+	BANKDEPOSITCOLLECTIONSUBMISSIONREQUESTSTATUSDISABLED = "Disabled"
+	BANKDEPOSITCOLLECTIONSUBMISSIONREQUESTSTATUSDELETED  = "Deleted"
+)
+
+// SurveyAndTax
+const (
+	SURVEYANDTAXSTATUSPENDING     = "Pending"
+	SURVEYANDTAXSTATUSVERIFIED    = "Verified"
+	SURVEYANDTAXSTATUSNOTVERIFIED = "NotVerified"
+	SURVEYANDTAXSTATUSACTIVE      = "Active"
+)
+
+// ProductConfiguration
+const (
+	PRODUCTCONFIGURATIONACTIVE  = "Active"
+	PRODUCTCONFIGURATIONDISABLE = "Disabled"
+	PRODUCTCONFIGURATIONDELETED = "Deleted"
+)
+
+// Property Basic Update Log
+const (
+	PROPERTYBASICUPDATELOGACTIVE   = "Active"
+	PROPERTYBASICUPDATELOGDISABLE  = "Disabled"
+	PROPERTYBASICUPDATELOGDELETED  = "Deleted"
+	PROPERTYBASICUPDATELOGINIT     = "Init"
+	PROPERTYBASICUPDATELOGACCEPTED = "Accepted"
+	PROPERTYBASICUPDATELOGREJECTED = "Rejected"
+)
+
+// HDFC Payment Gateway
+const (
+	HDFCPAYMENTGATEWAYACTIVE  = "Active"
+	HDFCPAYMENTGATEWAYDISABLE = "Disabled"
+	HDFCPAYMENTGATEWAYDELETED = "Deleted"
+)

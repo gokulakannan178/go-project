@@ -1,0 +1,8 @@
+    JoiningDate         *time.Time         `json:"joiningDate" bson:"joiningDate,omitempty"`
+	ProbationaryendDate time.Time          `json:"probationaryendDate" bson:"probationaryendDate,omitempty"`
+	ConfirmationDate    time.Time          `json:"confirmationDate" bson:"confirmationDate,omitempty"`
+	BenchstartDate      time.Time          `json:"benchstartDate" bson:"benchstartDate,omitempty"`
+	BenchendDate        time.Time          `json:"benchendDate" bson:"benchendDate,omitempty"`
+	NoticeDate          time.Time          `json:"noticeDate" bson:"noticeDate,omitempty"`
+	RelieveDate         time.Time          `json:"relieveDate" bson:"relieveDate,omitempty"`
+	

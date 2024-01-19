@@ -1,0 +1,75 @@
+
+[development]
+database_name="lgfweather"
+mongodb_url="mongodb://localhost:27018,localhost:27019,localhost:27020/?replicaSet=rsSample"
+SMS_URL = "http://bulk.smseasy.in/api/mt/SendSMS"
+SMS_URL_BKUP = "http://sms.logikoof.com/api/mt/SendSMS"
+WEATHERDATA_URL ="https://api.openweathermap.org/data/2.5/onecall?"
+IMD_WEATHERDATA_URL="DIST_BLOCK_FT1534/2020/dfcst/"
+IMD_WEATHERDATA_FILE="/dfcst2000z"
+IMD_WEATHERDATA_LOCATION="madhya-pradesh"
+IMD_BLOCKWEATHERDATA_URL="DIST_BLOCK_FT1534/2020/bfcst/"
+IMD_BLOCKWEATHERDATA_FILE="/bfcst100z"
+IMD_BLOCKWEATHERDATA_LOCATION="madhya-pradesh"
+WEATHERDATA_ID ="ec7677323aeaee1ab36973ae4f96c3c5"
+SMS_USERNAME="urncch"
+SMS_PASSWORD="urncch"
+SMS_SENDER_ID="URNCCH"
+SMS_CHANNEL="Trans"
+SMS_DCS=0
+SMS_FLASH=0
+SMS_ROUTE="1"
+#EMAIL_FROM="bpmsdevelopment@gmail.com" 
+#EMAIL_FROM_PASSWORD="#nature32"
+#EMAIL_SMTPHOST="smtp.gmail.com"
+#EMAIL_SMTPPORT="587"
+EMAIL_FROM="urncc@logikoof.in" 
+EMAIL_FROM_PASSWORD="#nature32"
+EMAIL_SMTPHOST="smtp.yandex.com"
+EMAIL_SMTPPORT="587"
+BASE_URL="http://stage.municipal.com"
+API_BASE_URL="http://139.99.21.181:8089/api"
+LOGIN_URL="/#/login"
+CONTACTUS_URL="/#/contact"
+FILE_URL = "C:/solo/repos/lgfweather/files/documents/"
+FILE_URL_D = "documents/"
+TEMPLATE_URL = "C:/solo/repos/lgfweather/files/templates/"
+PUSHNOTIFICATION_CRED = "C:/solo/repos/lgfweather/files/config/lgfweatherapp-1dd2a-firebase-adminsdk-p4pj9-8b717a51d5.json"
+
+
+
+[development2]
+database_name="lgfweather"
+mongodb_url="mongodb://localhost:27018,localhost:27019,localhost:27020/?replicaSet=rsSample"
+SMS_URL = "http://bulk.smseasy.in/api/mt/SendSMS"
+SMS_URL_BKUP = "http://sms.logikoof.com/api/mt/SendSMS"
+WEATHERDATA_URL ="https://api.openweathermap.org/data/2.5/onecall?"
+WEATHERDATA_ID ="ec7677323aeaee1ab36973ae4f96c3c5"
+SMS_USERNAME="urncch"
+SMS_PASSWORD="urncch"
+SMS_SENDER_ID="URNCCH"
+SMS_CHANNEL="Trans"
+SMS_DCS=0
+SMS_FLASH=0
+SMS_ROUTE="1"
+#EMAIL_FROM="bpmsdevelopment@gmail.com" 
+#EMAIL_FROM_PASSWORD="#nature32"
+#EMAIL_SMTPHOST="smtp.gmail.com"
+#EMAIL_SMTPPORT="587"
+
+EMAIL_FROM="urncc@logikoof.in" 
+EMAIL_FROM_PASSWORD="#nature32"
+EMAIL_SMTPHOST="smtp.yandex.com"
+EMAIL_SMTPPORT="587"
+BASE_URL="http://stage.municipal.com"
+API_BASE_URL="http://139.99.21.181:8089/api"
+LOGIN_URL="/#/login"
+CONTACTUS_URL="/#/contact"
+FILE_URL = "C:/solo/repos/lgfweather/files/documents/"
+FILE_URL_D = "documents/"
+TEMPLATE_URL = "C:/solo/repos/lgfweather/files/templates/"
+PUSHNOTIFICATION_CRED = "C:/solo/repos/lgfweather/files/config/lgfweatherapp-1dd2a-firebase-adminsdk-p4pj9-8b717a51d5.json"
+
+
+
+

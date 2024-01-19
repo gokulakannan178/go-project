@@ -1,0 +1,14 @@
+package constants
+
+//SALE TRANSPORT status
+const (
+	SALETRANSPORTSTATUSPENDING    string = "Pending"
+	SALETRANSPORTSTATUSACCEPTED   string = "Accepted"
+	SALETRANSPORTSTATUSDEREJECTED string = "Rejected"
+	SALETRANSPORTSTATUSDESHIPPED  string = "Shipped"
+	SALETRANSPORTSTATUSDELIVERED  string = "Delivered"
+
+	SALETRANSPORTATIONTYPETAKEWAY string = "TakeAway"
+	SALETRANSPORTATIONTYPETRANSIT string = "Transit"
+	SALEITEMSGATHERED             string = "Updated"
+)

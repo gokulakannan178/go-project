@@ -1,0 +1,8 @@
+package constants
+
+//Advertisement Constants
+const (
+	ADVERTISEMENTOWNERSTATUSACTIVE   = "Active"
+	ADVERTISEMENTOWNERSTATUSDISABLED = "Disabled"
+	ADVERTISEMENTOWNERSTATUSDELETED  = "Deleted"
+)

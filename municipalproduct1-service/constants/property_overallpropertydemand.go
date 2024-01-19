@@ -1,0 +1,8 @@
+package constants
+
+// Overall Property Demand
+const (
+	OVERALLPROPERTYDEMANDSTATUSACTIVE   = "Active"
+	OVERALLPROPERTYDEMANDSTATUSDISABLED = "Disabled"
+	OVERALLPROPERTYDEMANDSTATUSDELETED  = "Deleted"
+)

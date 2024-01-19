@@ -1,0 +1,18 @@
+[development]
+database_name="bpmsdev"
+mongodb_url="mongodb://localhost:27017"
+SMS_URL = "http://sms.logikoof.com/api/mt/SendSMS"
+SMS_USERNAME="logikoof"
+SMS_PASSWORD="logikoof"
+SMS_SENDER_ID="LOGIKF"
+SMS_CHANNEL="Trans"
+SMS_DCS=0
+SMS_FLASH=0
+SMS_ROUTE="1"
+EMAIL_FROM="bpmsdevelopment@gmail.com" 
+EMAIL_FROM_PASSWORD="#nature32"
+EMAIL_SMTPHOST="smtp.gmail.com"
+EMAIL_SMTPPORT="587"
+
+
+

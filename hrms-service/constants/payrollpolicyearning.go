@@ -1,0 +1,8 @@
+package constants
+
+// PayrollPolicyEarning Constants
+const (
+	PAYROLLPOLICYEARNINGSTATUSACTIVE   = "Active"
+	PAYROLLPOLICYEARNINGSTATUSDISABLED = "Disabled"
+	PAYROLLPOLICYEARNINGSTATUSDELETED  = "Deleted"
+)

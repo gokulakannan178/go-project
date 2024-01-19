@@ -1,0 +1,37 @@
+[development]
+database_name="logikoofechallandev"
+mongodb_url="mongodb://localhost:27018,localhost:27019,localhost:27020/?replicaSet=rsSample"
+SMS_URL = "http://sms.logikoof.com/api/mt/SendSMS"
+SMS_USERNAME="logikoof"
+SMS_PASSWORD="logikoof"
+SMS_SENDER_ID="LOGIKF"
+SMS_CHANNEL="Trans"
+SMS_DCS=0
+SMS_FLASH=0
+SMS_ROUTE="1"
+
+[stage]
+database_name="logikoofechallanstage"
+mongodb_url="mongodb://localhost:27018,localhost:27019,localhost:27020/?replicaSet=rsSample"
+SMS_URL = "http://sms.logikoof.com/api/mt/SendSMS"
+SMS_USERNAME="urncc"
+SMS_PASSWORD="urncc"
+SMS_SENDER_ID="WEBSMS"
+SMS_CHANNEL="Trans"
+SMS_DCS=0
+SMS_FLASH=0
+SMS_ROUTE="1"
+
+[prod]
+database_name="logikoofechallanprod"
+mongodb_url="mongodb://localhost:27018,localhost:27019,localhost:27020/?replicaSet=rsSample"
+SMS_URL = "http://sms.logikoof.com/api/mt/SendSMS"
+SMS_USERNAME="urncc"
+SMS_PASSWORD="urncc"
+SMS_SENDER_ID="WEBSMS"
+SMS_CHANNEL="Trans"
+SMS_DCS=0
+SMS_FLASH=0
+SMS_ROUTE="1"
+
+

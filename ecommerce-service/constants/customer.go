@@ -1,0 +1,9 @@
+package constants
+
+// CUSTOMER
+const (
+	CUSTOMERSTATUSINIT     = "Init"
+	CUSTOMERSTATUSACTIVE   = "Active"
+	CUSTOMERSTATUSDISABLED = "Disabled"
+	CUSTOMERSTATUSDELETED  = "Deleted"
+)

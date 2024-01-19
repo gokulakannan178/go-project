@@ -1,0 +1,1 @@
+go run main.go --env=development --port=8110

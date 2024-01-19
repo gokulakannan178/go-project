@@ -1,0 +1,1 @@
+go run main.go --env=prod --port=8112

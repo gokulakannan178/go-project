@@ -1,0 +1,8 @@
+package constants
+
+// INVENTORY
+const (
+	INVENTORYSTATUSACTIVE   = "Active"
+	INVENTORYSTATUSDISABLED = "Disabled"
+	INVENTORYSTATUSDELETED  = "Deleted"
+)

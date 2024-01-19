@@ -1,0 +1,12 @@
+package constants
+
+//BillClaim Constants
+const (
+	BILLCLAIMSTATUSACTIVE   = "Active"
+	BILLCLAIMSTATUSAPPROVED = "Approved"
+	BILLCLAIMSTATUSREJECTED = "Rejected"
+	BILLCLAIMSTATUSPENDING  = "Pending"
+	BILLCLAIMSTATUSINIT     = "init"
+	BILLCLAIMSTATUSDISABLED = "Disabled"
+	BILLCLAIMSTATUSDELETED  = "Deleted"
+)
